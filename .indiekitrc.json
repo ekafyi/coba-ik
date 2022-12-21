@@ -1,17 +1,20 @@
 {
   "plugins": [
-    "@indiekit/preset-hugo",
     "@indiekit/store-github"
   ],
   "publication": {
     "me": "https://coba-ik.netlify.app"
   },
-  "@indiekit/preset-hugo": {
-    "frontMatterFormat": "yaml"
-  },
   "@indiekit/store-github": {
     "user": "ekafyi",
     "repo": "coba-ik",
     "branch": "main"
+  },
+  "application": {
+    "name": "My IndieWeb Server",
+    "authorizationEndpoint": "https://ekafyi-solid-giggle-pqjj475p7qf79j4-3000.preview.app.github.dev/auth",
+    "tokenEndpoint": "https://ekafyi-solid-giggle-pqjj475p7qf79j4-3000.preview.app.github.dev/token",
+    "micropubEndpoint ": "https://ekafyi-solid-giggle-pqjj475p7qf79j4-3000.preview.app.github.dev/micropub",
+    "url": "https://ekafyi-solid-giggle-pqjj475p7qf79j4-3000.preview.app.github.dev"
   }
 }
